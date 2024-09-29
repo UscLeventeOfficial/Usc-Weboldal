@@ -96,7 +96,7 @@
   
 .also {
     position: relative;
-    bottom: 760px;
+    bottom: 750px;
     left: -20px;
     border: solid white 2px;
     width: 120%; 
@@ -111,14 +111,15 @@ html {
     left: 300px;
     
 }
-  
+
 html, body {
     margin: 0;
     padding: 0;
-    height: 150%;
+    height: 200%;
     width: 100%;
     overflow-x: hidden; 
 }
+
 
 
 
