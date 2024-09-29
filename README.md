@@ -1,2 +1,0 @@
-# Usc-Weboldal
-Usc Weboldal
