@@ -91,29 +91,3 @@
     top: 0px;
     left: 000px;
 }
-
-
-  
-.also {
-    position: relative;
-    bottom: 760px;
-    left: -20px;
-    border: solid white 2px;
-    width: 120%; 
-}
-html {
-    background-color: red;
-}
-
-.elso {
-    position: relative;
-    bottom: 700px;
-    left: 300px;
-    
-}
-  
-
-
-
-
-
