@@ -1,24 +1,24 @@
 #Usc {
     width: 1920px; 
     height: 100px;
-    font-size: 350px;
+    font-size: 550px;
     color: white;
     font-weight: bolder;
     font-family: Impact;
-    position: fixed;
-    top:-250px;
+    position: relative;
+    top: -1700px;
     left:200px;
 }
 
 #Logo {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     border: solid;
-    border-color: black;
-    border-radius: 175px;
-    position: relative;
-    top: 100px;
-    right: -3500px;
+    border-color: white;
+    border-radius: 225px;
+    position: fixed;
+    top: 150px;
+    left: 170px;
 }
 
 #UscFC {
@@ -26,38 +26,97 @@
     height: 300px;
     border: solid;
     border-radius: 100px;
-    position: fixed;
+    position: relative;
     font-size: 100px;
-    top: 3000px;
-    left: 1600px;
+    top: -2100px;
+    left: 1590px;
 }
 
-
-.fejlec {
-    background-color: red;
-    height: 630px;
-    width: 100%;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    z-index: 0000; 
-}
 
 #UscExtra {
     width: 800px;
     height: 300px;
     border: solid;
     border-radius: 100px;
-    position: fixed;
+    position: relative;
     font-size: 100px;
-    top: 3000px;
-    right: 1600px;
+    top: -4950px;
+    left: 5200px;
 }
 
+.fejlec {
+    background-color: #ed2647;
+    height: 630px;
+    width: 100%;
+    position: relative; 
+    top: 0;
+    left: 0;
+    z-index: 0000; 
+}
+
+#UscText {
+    position: relative;
+    bottom: 1500px;
+    right: -1450px;
+    font-size: 100px;
+    font-family: Impact;
+    border: 25px solid ;
+    border-color: white;
+    background-color: grey;
+    padding: 120px;
+    height: 2250px;
+    width: 800px;
+    border-radius: 150px;
+    color: white;
+}   
+
+#UscExtraText {
+    position: relative;
+    bottom: 4120px;
+    right: -5060px;
+    font-size: 100px;
+    font-family: Impact;
+    border: 25px solid ;
+    border-color: white;
+    background-color: grey;
+    padding: 120px;
+    height: 2250px;
+    width: 800px;
+    border-radius: 150px;
+    color: white;
+}
+
+#Hatter {
+    position: absolute;
+    height: 4320px;
+    width: 7680px;
+    top: 0px;
+    left: 000px;
+}
+
+//.felso {
+    position: relative;
+    top: -1700px;
+    left: -20px;
+    border: solid black 15px;
+    width: 120%; 
+}
   
-  
-  
-  
+.also {
+    position: relative;
+    top: 2460px;
+    left: -20px;
+    border: solid black 15px;
+    width: 120%; 
+}
+html {
+    background-color: red;
+}
+
+.elso {
+    position: relative;
+    bottom: -4300px;
+}
   
 
 
