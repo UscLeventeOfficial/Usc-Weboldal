@@ -113,12 +113,13 @@ html {
 }
 
 html, body {
+    height: 200%;
     margin: 0;
     padding: 0;
-    height: 200%;
-    width: 100%;
     overflow-x: hidden; 
 }
+
+
 
 
 
