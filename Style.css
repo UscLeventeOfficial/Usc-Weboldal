@@ -11,37 +11,37 @@
 }
 
 #Logo {
-    width: 450px;
-    height: 450px;
+    width: 150px;
+    height: 150px;
     border: solid;
     border-color: white;
     border-radius: 225px;
     position: fixed;
-    top: 150px;
-    left: 170px;
+    top: 30px;
+    left: 30px;
 }
 
 #UscFC {
-    width: 800px;
-    height: 300px;
+    width: 220px;
+    height: 70px;
     border: solid;
-    border-radius: 100px;
+    border-radius: 10px;
     position: relative;
-    font-size: 100px;
-    top: -2100px;
-    left: 1590px;
+    font-size: 30px;
+    top: -180px;
+    left: -10px;
 }
 
 
 #UscExtra {
-    width: 800px;
-    height: 300px;
+    width: 220px;
+    height: 70px;
     border: solid;
-    border-radius: 100px;
+    border-radius: 10px;
     position: relative;
-    font-size: 100px;
-    top: -4950px;
-    left: 5200px;
+    font-size: 30px;
+    top: -1609px;
+    left: 1340px;
 }
 
 .fejlec {
@@ -55,58 +55,50 @@
 }
 
 #UscText {
-    position: relative;
-    bottom: 1500px;
-    right: -1450px;
-    font-size: 100px;
-    font-family: Impact;
-    border: 25px solid ;
-    border-color: white;
-    background-color: grey;
-    padding: 120px;
-    height: 2250px;
-    width: 800px;
-    border-radius: 150px;
-    color: white;
+    position: relative; 
+    bottom: 50px; 
+    right: 50px; 
+    font-size: 30px; 
+    font-family: Arial;
+    border: 5px solid white; 
+    background-color: grey; 
+    padding: 20px;  
+    height: 550px;
+    width: 250px; 
+    border-radius: 20px; 
+    color: white; 
 }   
 
 #UscExtraText {
-    position: relative;
-    bottom: 4120px;
-    right: -5060px;
-    font-size: 100px;
-    font-family: Impact;
-    border: 25px solid ;
-    border-color: white;
-    background-color: grey;
-    padding: 120px;
-    height: 2250px;
-    width: 800px;
-    border-radius: 150px;
-    color: white;
+    position: relative; 
+    bottom: 1480px; 
+    right: -1300px; 
+    font-size: 30px; 
+    font-family: Arial;
+    border: 5px solid white; 
+    background-color: grey; 
+    padding: 20px;  
+    height: 550px;
+    width: 250px; 
+    border-radius: 20px; 
+    color: white; 
 }
 
 #Hatter {
     position: absolute;
-    height: 4320px;
-    width: 7680px;
+    height: 1080px;
+    width: 1920x;
     top: 0px;
     left: 000px;
 }
 
-//.felso {
-    position: relative;
-    top: -1700px;
-    left: -20px;
-    border: solid black 15px;
-    width: 120%; 
-}
+
   
 .also {
     position: relative;
-    top: 2460px;
+    bottom: 760px;
     left: -20px;
-    border: solid black 15px;
+    border: solid white 2px;
     width: 120%; 
 }
 html {
@@ -115,7 +107,9 @@ html {
 
 .elso {
     position: relative;
-    bottom: -4300px;
+    bottom: 700px;
+    left: 300px;
+    
 }
   
 
