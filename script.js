@@ -8,12 +8,12 @@ window.addEventListener("scroll", function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const hideButton = document.getElementById("eltuntet");
+    const gombEltuntetes = document.getElementById("eltuntet");
     const video = document.getElementById("Video");
     const gomb = document.getElementById("eltuntet")
 
-    hideButton.addEventListener("click", function() {
+    gombEltuntetes.addEventListener("click", function() {
         video.style.display = "none"; 
-        gomb.style.display = "none"
+        gomb.style.display = "none";
     });
 });
