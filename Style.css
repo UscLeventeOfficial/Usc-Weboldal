@@ -202,7 +202,7 @@ html, body {
     width: 30px;
     top: 53%;
     right: 3%;
-    background-color: #007bff;
+    background-color: #ffffff;
     font-size: 15px;
     border: solid 2px;
     border-radius: 50%;
@@ -215,24 +215,33 @@ html, body {
 }
 
 #Fejlec{
-    width: 500px;
-    height: 150px;
+    width: 690px;
+    height: 120px;
     color: black;
     border: solid;
+    border-radius: 60px;
     background-color: white;
     position: relative;
     bottom: 87%;
-    left: 35%;
+    left: 32.5%;
+    
 }
+
 nav ul {
     list-style: none; 
     padding: 0; 
     margin: 0;
     display: flex; 
+    font-size: 38px;
+    font-family: impact;
+    
 }
 
 nav ul li {
-    margin-left: 20px; 
+    position: relative;
+    left: 100px; 
+    margin-left: 20px;
+    bottom: 75px;
 }
 
 nav ul li a {
@@ -244,4 +253,36 @@ nav ul li a:hover {
     text-decoration: underline; 
     text-underline-offset: 5px;
     
+}
+
+#UscFejlec {
+    position: relative;
+    top: 6px;
+    left: 5px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#UscFejlec:hover{
+    box-shadow: 0px 5px 20px #d60729;
+}
+
+#Discord{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 8px;
+    left: 470px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#Discord:hover{
+    box-shadow: 0px 5px 20px #5865F2;
 }
