@@ -96,38 +96,10 @@
     z-index: 0000; 
 }
 
-#UscText {
-    position: relative; 
-    bottom: 50px; 
-    right: 50px; 
-    font-size: 30px; 
-    font-family: Arial;
-    border: 5px solid white; 
-    background-color: grey; 
-    padding: 20px;  
-    height: 550px;
-    width: 250px; 
-    border-radius: 20px; 
-    color: white; 
-}   
 
-#UscExtraText {
-    position: relative; 
-    bottom: 1480px; 
-    right: -1300px; 
-    font-size: 30px; 
-    font-family: Arial;
-    border: 5px solid white; 
-    background-color: grey; 
-    padding: 20px;  
-    height: 550px;
-    width: 250px; 
-    border-radius: 20px; 
-    color: white; 
-}
 
 #Hatter {
-    position: absolute;
+    position: fixed;
     height: 1080px;
     width: 1920x;
     top: 0px;
@@ -222,7 +194,7 @@ html, body {
     border-radius: 60px;
     background-color: white;
     position: relative;
-    bottom: 87%;
+    bottom: 32%;
     left: 32.5%;
     
 }
