@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #Usc {
     width: 1920px; 
     height: 100px;
@@ -116,9 +120,7 @@
     width: 120%; 
 }
 
-html {
-    background-color: #ed2647;
-}
+
 
 .elso {
     position: relative;
@@ -136,16 +138,18 @@ html, body {
 
 .vissza-a-tetejere {
     position: fixed;
-    bottom: 20px;
+    bottom: 160px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #007bff;
     color: white;
     padding: 15px 20px; 
-    border-radius: 50%;
+    border-radius: 35px;
     text-align: center;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
     display: none;
     transition: background-color 0.3s ease, box-shadow 0.3s ease; 
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
@@ -164,7 +168,7 @@ html, body {
 
 #Video {
     position: fixed;
-    bottom: 10%;
+    bottom: 20%;
     left: 68%;
 }
 
@@ -183,7 +187,7 @@ html, body {
 #eltuntet:hover{
     cursor: pointer;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
-    background-color: #0056b3;
+    background-color: grey;
 }
 
 #Fejlec{
@@ -196,7 +200,7 @@ html, body {
     position: relative;
     bottom: 32%;
     left: 32.5%;
-    
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
 }
 
 nav ul {
@@ -252,9 +256,56 @@ nav ul li a:hover {
     border: solid;
     border-radius: 50%;
     border-color: white;
-    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+    box-shadow:0px 15px 20px rgba(0, 0, 0, 0.4); 
 }
 
 #Discord:hover{
     box-shadow: 0px 5px 20px #5865F2;
 }
+
+/*footer*/
+
+#footer {
+    background-color: white;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    border: solid;
+    border-color: black;
+    border-radius: 800px;
+    bottom: 0;
+    width: 800px;
+    height: 80px;
+    left: 525px;
+    bottom: 20px;
+
+}
+
+#footer p {
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    font-family: impact;
+    position: relative;
+    top: 65px;
+}
+
+#footer .social-links {
+    margin-top: 5px;
+}
+
+#footer .social-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: impact;
+    position: relative;
+    margin: 0 80px;
+    bottom: 20px;
+}
+
+#footer .social-links a:hover {
+    color: #ff6347; 
+}
+
