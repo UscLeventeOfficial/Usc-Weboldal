@@ -30,8 +30,11 @@
     position: fixed;
     top: 30px;
     left: 30px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
 }
-
+#Logo:hover{
+    box-shadow: 0px 5px 20px #d60729;
+}
 #UscExtraLogo{
     position: fixed;
     width: 120px;
@@ -41,8 +44,12 @@
     border-radius: 225px;
     top: 180px;
     left: 30px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
 }
 
+#UscExtraLogo:hover{
+    box-shadow: 0px 5px 20px #0056b3;
+}
 #UscFC {
     width: 220px;
     height: 70px;
@@ -52,8 +59,14 @@
     font-size: 30px;
     top: -180px;
     left: -10px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
 }
 
+#UscFC:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
 
 #UscExtra {
     width: 220px;
@@ -64,6 +77,13 @@
     font-size: 30px;
     top: -1609px;
     left: 1340px;
+}
+
+#UscExtra:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
 }
 
 .fejlec {
@@ -125,7 +145,7 @@
 }
 
 html {
-    background-color: red;
+    background-color: #ed2647;
 }
 
 .elso {
@@ -145,27 +165,56 @@ html, body {
 .vissza-a-tetejere {
     position: fixed;
     bottom: 20px;
-    right: 20px;
-    background-color: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
     color: white;
-    padding: 10px 15px;
+    padding: 15px 20px; 
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     display: none;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
 
 .vissza-a-tetejere:hover {
-    background-color: #555;
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
 }
 
-.show {
+.vissza-a-tetejere.show {
     display: block;
 }
 
+#Video {
+    position: fixed;
+    bottom: 10%;
+    left: 68%;
+}
 
+#eltuntet {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    top: 53%;
+    right: 3%;
+    background-color: #007bff;
+    font-size: 15px;
+    border: solid 2px;
+    border-radius: 50%;
+}
 
+#eltuntet:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+    background-color: #0056b3;
+}
 
+#Fejlec{
+    
+}
 
