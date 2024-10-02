@@ -10,6 +10,17 @@
     left:200px;
 }
 
+/*#UscLevente {
+    position: fixed;
+    color: white;
+    font-size: 100px;
+    font-family: Impact;
+    top: -80px;
+    left: 700px;
+
+
+}
+*/
 #Logo {
     width: 120px;
     height: 120px;
@@ -18,6 +29,17 @@
     border-radius: 225px;
     position: fixed;
     top: 30px;
+    left: 30px;
+}
+
+#UscExtraLogo{
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    border: solid;
+    border-color: white;
+    border-radius: 225px;
+    top: 180px;
     left: 30px;
 }
 
@@ -96,7 +118,7 @@
   
 .also {
     position: relative;
-    bottom: 750px;
+    bottom: 790px;
     left: -20px;
     border: solid white 2px;
     width: 120%; 
@@ -120,8 +142,28 @@ html, body {
     overflow-x: hidden; 
 }
 
+.vissza-a-tetejere {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    display: none;
+    transition: background-color 0.3 ease;
+}
 
+.vissza-a-tetejere:hover {
+    background-color: #555;
+}
 
+.show {
+    display: block;
+}
 
 
 
