@@ -1,0 +1,403 @@
+
+#Usc {
+    width: 1920px; 
+    height: 100px;
+    font-size: 550px;
+    color: white;
+    font-weight: bolder;
+    font-family: Impact;
+    position: relative;
+    top: -1700px;
+    left:200px;
+}
+
+/*#UscLevente {
+    position: fixed;
+    color: white;
+    font-size: 100px;
+    font-family: Impact;
+    top: -80px;
+    left: 700px;
+
+
+}
+*/
+#Logo {
+    width: 120px;
+    height: 120px;
+    border: solid;
+    border-radius: 225px;
+    border-color: white;
+    position: fixed;
+    top: 30px;
+    left: 30px; 
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);   
+}
+#Logo:hover{
+    box-shadow: 0px 5px 20px #d60729;
+}
+#UscExtraLogo{
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    border: solid;
+    border-color: white;
+    border-radius: 225px;
+    top: 180px;
+    left: 30px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#UscExtraLogo:hover{
+    box-shadow: 0px 5px 20px #0056b3;
+}
+#UscFC {
+    width: 220px;
+    height: 70px;
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    font-size: 30px;
+    top: -180px;
+    left: -10px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#UscFC:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#UscExtra {
+    width: 220px;
+    height: 70px;
+    border: solid;
+    border-radius: 10px;
+    position: relative;
+    font-size: 30px;
+    top: -1609px;
+    left: 1340px;
+}
+
+#UscExtra:hover{
+    cursor: pointer;
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.fejlec {
+    background-color: #ed2647;
+    height: 630px;
+    width: 100%;
+    position: relative; 
+    bottom: 100;
+    left: 0;
+    z-index: 0000; 
+}
+
+
+
+#Hatter {
+    position: fixed;
+    height: 1080px;
+    width: 1920x;
+    top: 0px;
+    left: 000px;
+}
+
+
+  
+.also {
+    position: relative;
+    bottom: 790px;
+    left: -20px;
+    border: solid white 2px;
+    width: 120%; 
+}
+
+
+
+.elso {
+    position: relative;
+    bottom: 700px;
+    left: 300px;
+    
+}
+
+html, body {
+    height: 200%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.vissza-a-tetejere {
+    position: fixed;
+    bottom: 100px;
+    left: 92.5%;
+    float: left;
+    transform: translateX(-50%);
+    background-color: grey;
+    color: white;
+    padding: 15px 20px; 
+    border-radius: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    display: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.vissza-a-tetejere:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
+}
+
+.vissza-a-tetejere.show {
+    display: block;
+}
+
+#Video {
+    position: relative;
+    bottom: 25%;
+    left: 15%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 5%;
+}
+
+#video1logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    bottom: 55.7%;
+    left: 40.78%;
+}
+
+
+#Video2 {
+    position: relative;
+    bottom: 25%;
+    left: 25%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 5%;
+}
+
+#video2logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    bottom: 44.7%;
+    left: 34.96%;
+}
+
+#Video3 {
+    position: relative;
+    bottom: 14%;
+    right: 5.17%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 5%;
+}
+
+#video3logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    bottom: 55.7%;
+    left: 69.55%;
+}
+
+#Video4 {
+    position: relative;
+    bottom: 22.7%;
+    left: 15%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 5%;
+}
+
+#video4logo {
+    position: relative;
+    height: 100px;
+    height: 100px;
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+    bottom: 44.7%;
+    left: 63.85%;
+}
+
+#DiscordKep {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    bottom: 22%;
+    right: 6.2%;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 3%;
+}
+
+#DCLogoKep {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 20.7%;
+    right: 11.5%;
+    border: solid 5px;
+    border-radius: 50%;
+    border-color: white;
+}
+
+#eltuntet {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    top: 43%;
+    right: 3%;
+    background-color: #ffffff;
+    font-size: 15px;
+    border: solid 2px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#eltuntet:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+    background-color: grey;
+}
+
+#Fejlec{
+    width: 690px;
+    height: 120px;
+    color: black;
+    border: solid;
+    border-radius: 60px;
+    background-color: white;
+    position: relative;
+    bottom: 49.2%;
+    left: 32.5%;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    display: flex; 
+    font-size: 38px;
+    font-family: impact;
+    
+}
+
+nav ul li {
+    position: relative;
+    left: 100px; 
+    margin-left: 20px;
+    bottom: 75px;
+}
+
+nav ul li a {
+    color:  black; 
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+    text-underline-offset: 5px;
+    
+}
+
+#UscFejlec {
+    position: relative;
+    top: 6px;
+    left: 5px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    box-shadow:0px 5px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#UscFejlec:hover{
+    box-shadow: 0px 5px 20px #d60729;
+}
+
+#Discord{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    left: 470px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
+    box-shadow:0px 15px 20px rgba(0, 0, 0, 0.4); 
+}
+
+#Discord:hover{
+    box-shadow: 0px 5px 20px #5865F2;
+}
+
+/*footer*/
+
+#footer {
+    background-color: white;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    border: solid;
+    border-color: black;
+    border-radius: 800px;
+    bottom: 0;
+    width: 800px;
+    height: 80px;
+    left: 525px;
+    bottom: 20px;
+
+}
+
+#footer p {
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    font-family: impact;
+    position: relative;
+    top: 65px;
+}
+
+#footer .social-links {
+    margin-top: 5px;
+}
+
+#footer .social-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: impact;
+    position: relative;
+    margin: 0 80px;
+    bottom: 20px;
+}
+
